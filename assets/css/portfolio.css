@@ -1,0 +1,149 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+
+
+.title {
+  width: 100%;
+  margin: 30px auto 20px auto;
+}
+
+#portfoliotitle {
+  margin:auto;
+  font-style: oblique;
+text-align: center;
+animation-name: animation;
+animation-duration: 3s;
+animation-delay:0;
+
+}
+
+
+.portfolio {
+  width:100%;
+  display: flex;
+  margin-top:70px;
+}
+
+.card {
+  display: flex;
+margin: auto;
+    justify-content: space-between;
+    position: relative;
+
+    display: inline-block;
+    flex-direction: row;
+
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: .30rem;
+}
+
+.firstcard, .secondcard {
+  width: 25%;
+  height: auto;
+
+}
+
+.card-img-top {
+  height:50%;
+}
+.card-body {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  text-align: center;
+
+
+}
+
+.firstcard{
+  margin-right:30px;
+
+
+}
+.card-body:hover {
+    flex: 1 1 auto;
+    background-color:#fd7e14ba;
+}
+
+.card-title {
+  font-family:'Nunito';
+    font-size: 15px;
+}
+
+.btn {
+      font-weight: 400;
+      line-height: 1.5;
+      display: flex;
+
+
+    }
+.btn-primary {
+  color: black;
+    background-color: #dc3545;
+    border-color:#dc3545 ;
+    font-family: 'Nunito';
+
+}
+
+.btn, .btn-primary {
+  margin-top:28px;
+  margin-left: 100px;
+
+  position: absolute;
+  display: block;
+
+}
+
+.btn-primary:hover {
+    color: black;
+    background-color: #f7f107;
+    border-color:#f7f107;
+}
+
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  body {
+    height: 700px;
+  }
+  .title {
+    width: 100%;
+  }
+  .card-title {
+    font-size: 5px;
+  }
+  .btn, .btn-primary {
+  margin:20px auto 10px auto;
+
+  }
+  .portfolio {
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+}
+
+}
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .title {
+    width: 100%;
+  }
+  .card-title {
+    font-size: 10px;
+    margin-top: -10px;
+  }
+  .btn, .btn-primary {
+    margin:20px 20px 20px 55px;
+
+  }
+
+
+}
+
+@media only screen and (min-width: 961px) {
+
+}
